@@ -2,6 +2,10 @@
 .DS_Store
 */.DS_Store
 
+# Project
+site.db
+profile_pics
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

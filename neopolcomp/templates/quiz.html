@@ -1,0 +1,553 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+            <div class="form-group">
+                {{ form.question1.label(class="form-control-label") }}
+                {% if form.question1.errors %}
+                {{ form.question1(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question1.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question1 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question2.label(class="form-control-label") }}
+                {% if form.question2.errors %}
+                {{ form.question2(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question2.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question2 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question3.label(class="form-control-label") }}
+                {% if form.question3.errors %}
+                {{ form.question3(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question3.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question3 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question4.label(class="form-control-label") }}
+                {% if form.question4.errors %}
+                {{ form.question4(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question4.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question4 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question5.label(class="form-control-label") }}
+                {% if form.question5.errors %}
+                {{ form.question5(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question5.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question5 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question6.label(class="form-control-label") }}
+                {% if form.question6.errors %}
+                {{ form.question6(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question6.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question6 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question7.label(class="form-control-label") }}
+                {% if form.question7.errors %}
+                {{ form.question7(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question7.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question7 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question8.label(class="form-control-label") }}
+                {% if form.question8.errors %}
+                {{ form.question8(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question8.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question8 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question9.label(class="form-control-label") }}
+                {% if form.question9.errors %}
+                {{ form.question9(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question9.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question9 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question10.label(class="form-control-label") }}
+                {% if form.question10.errors %}
+                {{ form.question10(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question10.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question10 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question11.label(class="form-control-label") }}
+                {% if form.question11.errors %}
+                {{ form.question11(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question11.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question11 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question12.label(class="form-control-label") }}
+                {% if form.question12.errors %}
+                {{ form.question12(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question12.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question12 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question13.label(class="form-control-label") }}
+                {% if form.question13.errors %}
+                {{ form.question13(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question13.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question13 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question14.label(class="form-control-label") }}
+                {% if form.question14.errors %}
+                {{ form.question14(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question14.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question14 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question15.label(class="form-control-label") }}
+                {% if form.question15.errors %}
+                {{ form.question15(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question15.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question15 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question16.label(class="form-control-label") }}
+                {% if form.question16.errors %}
+                {{ form.question16(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question16.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question16 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question17.label(class="form-control-label") }}
+                {% if form.question17.errors %}
+                {{ form.question17(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question17.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question17 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question18.label(class="form-control-label") }}
+                {% if form.question18.errors %}
+                {{ form.question18(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question18.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question18 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question19.label(class="form-control-label") }}
+                {% if form.question19.errors %}
+                {{ form.question19(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question19.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question19 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question20.label(class="form-control-label") }}
+                {% if form.question20.errors %}
+                {{ form.question20(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question20.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question20 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question21.label(class="form-control-label") }}
+                {% if form.question21.errors %}
+                {{ form.question21(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question21.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question21 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question22.label(class="form-control-label") }}
+                {% if form.question22.errors %}
+                {{ form.question22(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question22.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question22 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question23.label(class="form-control-label") }}
+                {% if form.question23.errors %}
+                {{ form.question23(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question23.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question23 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question24.label(class="form-control-label") }}
+                {% if form.question24.errors %}
+                {{ form.question24(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question24.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question24 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question25.label(class="form-control-label") }}
+                {% if form.question25.errors %}
+                {{ form.question25(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question25.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question25 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question26.label(class="form-control-label") }}
+                {% if form.question26.errors %}
+                {{ form.question26(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question26.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question26 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question27.label(class="form-control-label") }}
+                {% if form.question27.errors %}
+                {{ form.question27(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question27.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question27 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question28.label(class="form-control-label") }}
+                {% if form.question28.errors %}
+                {{ form.question28(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question28.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question28 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question29.label(class="form-control-label") }}
+                {% if form.question29.errors %}
+                {{ form.question29(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question29.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question29 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.question30.label(class="form-control-label") }}
+                {% if form.question30.errors %}
+                {{ form.question30(class="form-control is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.question30.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {% for subfield in form.question30 %}
+                    <br>
+                    {{ subfield }}
+                    {{ subfield.label }}
+                {% endfor %}
+                {% endif %}
+            </div>
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+    </form>
+</div>
+{% endblock content %}
